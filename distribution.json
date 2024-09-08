@@ -1,0 +1,221 @@
+{
+  "version": "1.0.0",
+  "rss": "https://github.com/GTYoon/hulonge/tags.atom",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "hulonge-1.20.1",
+      "name": "휴롱의 마인크래프트 서버",
+      "description": "hulonge Running Minecraft 1.20.1 (Fabric v0.16.5)",
+      "icon": "https://github.com/GTYoon/hulonge_file/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "휴게시간.커뮤니티.한국",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.5",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1369712,
+            "MD5": "eef03e478210de8a4811e0e95eb263f6",
+            "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/repo/lib/net/fabricmc/fabric-loader/0.16.5/fabric-loader-0.16.5.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.16.5",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "4de97889a0fd68fa2c0bd0d4e16b13bb",
+                "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/repo/versions/1.20.1-fabric-0.16.5/1.20.1-fabric-0.16.5.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.6",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 123598,
+                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
+                "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.6",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72194,
+                "MD5": "9e317c75534bd1da8c00a67c618ab288",
+                "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.6",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51935,
+                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
+                "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.6",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 91131,
+                "MD5": "bd3bc1c176a787373e9a031073c9574b",
+                "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494835,
+                "MD5": "a33725dd52de94c33514b6867c8d0b4b",
+                "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/repo/lib/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "moe.caramel.chat:caramelchat:1.2.0@jar",
+          "name": "CaramelChat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 343899,
+            "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/servers/hulonge-1.20.1/fabricmods/required/caramelChat-mc1.20.1-fabric-1.2.0.jar",
+            "MD5": "69ec9d55a7a980bc1159cc33e246d581"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.2+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2107289,
+            "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/servers/hulonge-1.20.1/fabricmods/required/fabric-api-0.92.2+1.20.1.jar",
+            "MD5": "92c58961866741106aae126558c9d4a7"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.2+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2701293,
+            "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/servers/hulonge-1.20.1/fabricmods/required/iris-1.7.2+mc1.20.1.jar",
+            "MD5": "fde2833d321c3f09020bd456094693d3"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.11+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 968419,
+            "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/servers/hulonge-1.20.1/fabricmods/required/sodium-fabric-0.5.11+mc1.20.1.jar",
+            "MD5": "9880bae748957d1cb6c4de50c8e0452a"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:24.4.0@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1561763,
+            "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/servers/hulonge-1.20.1/fabricmods/required/Xaeros_Minimap_24.4.0_Fabric_1.20.jar",
+            "MD5": "ed21ef60e289f7354c8febfff321cab6"
+          }
+        },
+        {
+          "id": "휴게시간 리소스팩.zip",
+          "name": "휴게시간 리소스팩.zip",
+          "type": "File",
+          "artifact": {
+            "size": 5111906,
+            "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/servers/hulonge-1.20.1/files/resourcepacks/%ED%9C%B4%EA%B2%8C%EC%8B%9C%EA%B0%84%20%EB%A6%AC%EC%86%8C%EC%8A%A4%ED%8C%A9.zip",
+            "path": "resourcepacks/휴게시간 리소스팩.zip"
+          }
+        },
+        {
+          "id": "BSLOriginal_v8.3.zip",
+          "name": "BSLOriginal_v8.3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1101937,
+            "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/servers/hulonge-1.20.1/files/shaderpacks/BSLOriginal_v8.3.zip",
+            "path": "shaderpacks/BSLOriginal_v8.3.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.2.2.zip",
+          "name": "ComplementaryUnbound_r5.2.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 441687,
+            "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/servers/hulonge-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.2.2.zip",
+            "path": "shaderpacks/ComplementaryUnbound_r5.2.2.zip"
+          }
+        },
+        {
+          "id": "Solas Shader V2.2b.zip",
+          "name": "Solas Shader V2.2b.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1236855,
+            "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/servers/hulonge-1.20.1/files/shaderpacks/Solas%20Shader%20V2.2b.zip",
+            "path": "shaderpacks/Solas Shader V2.2b.zip"
+          }
+        },
+        {
+          "id": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV89.0§r§l.zip",
+          "name": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV89.0§r§l.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3180580,
+            "url": "https://raw.githubusercontent.com/GTYoon/hulonge_file/main/servers/hulonge-1.20.1/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV89.0%C2%A7r%C2%A7l.zip",
+            "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV89.0§r§l.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
