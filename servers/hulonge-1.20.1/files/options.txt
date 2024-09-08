@@ -1,0 +1,6 @@
+version:3465
+guiScale:2
+resourcePacks:["vanilla","fabric","file/휴게시간 리소스팩.zip"]
+incompatibleResourcePacks:[]
+lang:ko_kr
+key_key.chat:key.keyboard.enter
